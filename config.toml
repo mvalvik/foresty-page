@@ -1,6 +1,5 @@
 baseURL = "http://example.org/"
 disqusShortname = ""
-googleAnalytics = ""
 languageCode = "en-us"
 title = "Forty"
 theme = "forty33"
