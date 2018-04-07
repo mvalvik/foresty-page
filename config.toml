@@ -1,6 +1,7 @@
 # Site settings
 baseURL = "http://example.org/"
 languageCode = "en-us"
+<<<<<<< HEAD
 title = "Forty"
 theme = "forty33"
 
