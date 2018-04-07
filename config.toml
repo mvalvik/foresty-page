@@ -1,6 +1,5 @@
 baseURL = "http://example.org/"
-disqusShortname = ""
-languageCode = "en-us"
+blanguageCode = "en-us"
 title = "Forty"
 theme = "forty33"
 
