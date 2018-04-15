@@ -1,8 +1,8 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Landskabsarkitekter"
-theme = "hugo-agency-theme2"
+title = "Agency"
+theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -22,7 +22,7 @@ googleAnalytics = ""
   # email = "your@email.com"
 
   # Link custom assets relative to /static
-  custom_css = ["css/custom.css"]
+  custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
 
@@ -46,13 +46,13 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Landskabsarkitekter"
+    brand = "The Agency"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Projekter"
+    portfolio = "Portfolio"
     about = "About"
-    team = "Contact"
+    team = "Team"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -66,47 +66,46 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "External link"
+      weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Landskabsarkitekter"
-    subtitle = ""
-    buttonText = "projekter"
-    buttonTwoText = "kontakt"
+    title = "Welcome To Our Studio!"
+    subtitle = "It's nice to meet you"
+    buttonText = "Tell me more"
 
 
   # Services section
-  #[params.services]
-  #  enable = true
-  #  title = "Services"
-  #  subtitle = "Lorem ipsum dolor sit amet consectetur."
+  [params.services]
+    enable = true
+    title = "Services"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-  #  [[params.services.row]]
+    [[params.services.row]]
 
-  #  [[params.services.row.list]]
-  #    icon = "fa-shopping-cart"
-  #    title = "E-Commerce"
-  #    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  #    url = "#"
+    [[params.services.row.list]]
+      icon = "fa-shopping-cart"
+      title = "E-Commerce"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
 
-  #  [[params.services.row.list]]
-  #    icon = "fa-laptop"
-  #    title = "Responsive Design"
-  #    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  #    url = "#"
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Responsive Design"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
 
-  #  [[params.services.row.list]]
-  #    icon = "fa-lock"
-  #    title = "Web"
-  #    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  #     url = "#"
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
 
   # Portfolio section
   [params.portfolio]
@@ -115,8 +114,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Projekter"
-    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Portfolio"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
       client = "Client"
@@ -127,7 +126,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = false
+    enable = true
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -165,30 +164,56 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Kontakt"
+    title = "Our amazing team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = ""
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Pjuske"
-      position = "CEO"
-      livesIn = "[Vanløse, Danmark](#some-maps-url)"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
         "UX for [member dashboard](#)",
         "Maintainer for [awesome-project](#)",
         "Open Source [community management](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Pjuske is an awesome Lead Designer with heaps of experience in the field of UX.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
 
   # Client section
     [params.clients_list]
-      enable = false
+      enable = true
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -215,7 +240,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = true
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
