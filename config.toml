@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://festive-lichterman-aece17.netlify.com/"
+baseurl = "https://landskaber.netlify.com/"
 languageCode = "en-us"
 title = "Landskabsarkitekter"
 theme = "hugo-agency-theme2"
