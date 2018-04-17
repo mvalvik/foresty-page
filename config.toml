@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://festive-lichterman-aece17.netlify.com/"
 languageCode = "en-us"
-title = "Landskabsarkitekter"
+title = "Louise Bengtsen Landskab"
 theme = "hugo-agency-theme2"
 
 # Enter your tracking code to enable Google Analytics
@@ -46,13 +46,13 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Landskabsarkitekter"
+    brand = "Louise Bengtsen Landskab"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
     portfolio = "Projekter"
     about = "About"
-    team = "Contact"
+    team = "Kontakt"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -76,7 +76,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Landskabsarkitekter"
+    title = "Louise Bengtsen Landskab"
     subtitle = ""
     buttonText = "projekter"
     buttonTwoText = "kontakt"
@@ -122,7 +122,7 @@ googleAnalytics = ""
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = ""
 
 
     # About section
@@ -166,25 +166,26 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Kontakt"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = ""
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Pjuske"
-      position = "CEO"
-      livesIn = "[Vanløse, Danmark](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+      #img = "1.jpg"
+      name = "Louise Bengten"
+       social = [
+        ["fa-instagram", "#"]
       ]
+      email = "louie-go-low@hotmail.com"
+      telephone = "+45 2222 2222"
+      livesIn = "[Vanløse, Danmark](#some-maps-url)"
+#      scope = [
+#      ]
       # For bio markdown and even multiline strings are available.
-      bio = """Pjuske is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      #bio = """Pjuske is an awesome Lead Designer with heaps of experience in the field of UX.
+#She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
@@ -276,28 +277,14 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Footer section
   [params.footer]
-    enable = true
-    copyright = "Published under the Apache License 2.0."
+    enable = false
+    copyright = ""
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
-
+  
     [[params.footer.quicklinks]]
-      text = "Privacy Policy"
+      text = ""
       link = "#"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
+      text = ""
       link = "#"

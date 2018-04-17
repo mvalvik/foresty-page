@@ -11,19 +11,19 @@
       {{ range .Site.Params.team.members }}
         <div class="col-sm-4 col">
           <div class="team-member">
-            {{ $url := printf "img/team/%s" .img }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+            <!-- {{ $url := printf "img/team/%s" .img }} -->
+            <!-- <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}"> -->
             <h3>{{ .name | markdownify }}</h3>
 
-            {{ with .position }}
+            {{ with .email }}
             <h4>{{ . | markdownify }}</h4>
             {{ end }}
-            {{ with .reportsTo }}
-            <h5 class="report">Reports to {{ . | markdownify }}</h5>
+            {{ with .telephone }}
+            <h4>{{ . | markdownify }}</h5>
             {{ end }}
 
             {{ with .livesIn }}
-            <h5>Lives in {{ . | markdownify }}</h5>
+            <h5>{{ . | markdownify }}</h5>
             {{ end }}
 
             {{ with .scope }}

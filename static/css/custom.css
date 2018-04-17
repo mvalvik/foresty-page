@@ -76,6 +76,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Droid Serif";
     font-style: italic;
     font-weight: 300;
+    color: black;
 }
 
 .section-heading{
@@ -95,4 +96,40 @@ h1,h2,h3,h4,h5,h6{
 
 #team .flexbox{
     justify-content: center;
+}
+
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus{
+    color: grey;
+}
+
+a, a:hover, a:focus, a:active{
+    color: grey;
+}
+
+.btn-primary{
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+::selection{
+    background:grey;
+}
+
+#portfolio .portfolio-item .portfolio-caption p{
+    font-size: 13px;
+}
+
+.navbar-default .navbar-toggle{
+    background-color:white;
+    border-color:grey;
+    color: grey;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:grey;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: inherit;
 }
