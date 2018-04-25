@@ -133,3 +133,39 @@ a, a:hover, a:focus, a:active{
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
     background-color: inherit;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+    background-color: grey;
+    border-color: black;
+}
+
+#portfolio .portfolio-item .portfolio-caption{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.text-muted{
+    padding-top: 15px;
+}
+
+@media (min-width: 767px){
+    #portfolio .portfolio-item{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 767px) {
+    #portfolio .portfolio-item{
+        margin-bottom: 70px;
+    } 
+}
+
+
+.portfolio-modal .close-modal .lr .rl{
+    height:35px;
+}
+
+.portfolio-modal .close-modal .lr{
+    height: 35px;
+}
