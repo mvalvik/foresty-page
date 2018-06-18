@@ -169,3 +169,7 @@ a, a:hover, a:focus, a:active{
 .portfolio-modal .close-modal .lr{
     height: 35px;
 }
+
+.portfolio-modal .modal-content{
+    text-align: left;
+}
