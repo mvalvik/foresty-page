@@ -1,11 +1,24 @@
 modalID: 3
-title: Brønshøj skole
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Skiltning ved Hollufgård
+subtitle: Formidlingsprojekt i et nutidigt herregårdslandskab.
 date: 2014-07-07
-img: broenshoej_skole.jpg
-preview: broenshoej_skole-preview.jpg
-client: Start Bootstrap
-location: Danmark
+img: hollufgård/HG1.jpg
+preview: hollufgård/HG1.jpg
+images: ["hollufgård/HG2.jpg", "hollufgård/HG3.jpg", "hollufgård/HG4.jpg", "hollufgård/HG5.jpg", "hollufgård/HG6.jpg"]
+client: Odense Kommune og VandCenter Syd
+location: Hollufgård og Glisholm Regnvandssø, Odense
+collaboration: Arkitekt Katrine Rogild Storm
+offerings: Grafik, design og konstruktionstegninger
+status: Udført 2015 og 2017
 clientLink: "#"
-category: Corned beef t-bone tenderloin pork chop drumstick, bacon brisket ham hock frankfurter burgdoggen venison buffalo jerky. Pastrami ground round doner shankle, ham andouille chicken tongue. 
-description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+category: Grafik, design af skilte samt konstruktionstegninger. 
+description: 'Hollufgård er en herregård beliggende syd-øst for Odense. Den omkringliggende have og landskabspark er offentlig tilgængelig og flittigt brugt af mange besøgende. Landskabet rummer mange fortællinger og anvendelsesmuligheder, som formidles på skilte i forskellige formater, som er opstillet strategisk.
+
+
+De tre typer af skilte har designmæssig sammenhæng, og fremstår enkle og robuste. Materialerne er cortenstål og polycarbonat, som er printet på bagsiden. Designet er lavet, så oversigtsskiltene ikke har en bagside, men så det er muligt at montere skilte på begge sider af stålpladen.
+
+
+Louise Bengtsen Landskab har designet selve skiltene samt grafisk opsætning.
+
+
+Skiltene er senere også anvendt på Langelinie (indsæt evt. Link til projektet Langelinie) i Odense, til formidling af et klimatilpasningsprojekt.'
