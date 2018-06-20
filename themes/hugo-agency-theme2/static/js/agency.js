@@ -1,5 +1,11 @@
 // Smooth scrolling via animate()
 $(document).ready(function(){
+  
+  if(window.location.hash) {
+    var hash = window.location.hash;
+    $(hash).modal('toggle');
+  }
+
   if ($('.g-recaptcha')) {
     checkReCaptcha()
   }

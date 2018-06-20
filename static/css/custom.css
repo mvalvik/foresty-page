@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:100,200,300,400');
+
 .navbar-brand{
     display:none;
 }
@@ -13,7 +16,7 @@
 
 .intro-text a{
     border-color: black;
-    font-family: "Droid Serif";
+    font-family: "Roboto";
     color: black;
     font-size: 10px;
     font-weight: 400;
@@ -60,7 +63,7 @@ header{
 }
 
 .navbar-default .nav li a{
-    font-family: "Droid Serif";
+    font-family: "Roboto";
     color: black;
 }
 
@@ -73,14 +76,13 @@ header{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "Droid Serif";
-    font-style: italic;
+    font-family: "Roboto";
     font-weight: 300;
     color: black;
 }
 
 .section-heading{
-    font-family: "Droid Serif";
+    font-family: "Roboto";
     text-transform: none;
     font-size: 30px;
 }
@@ -144,6 +146,10 @@ a, a:hover, a:focus, a:active{
     padding-top: 0px;
 }
 
+div {
+    font-family: 'Roboto', sans-serif  !important;
+}
+
 .text-muted{
     padding-top: 15px;
 }
@@ -173,3 +179,11 @@ a, a:hover, a:focus, a:active{
 .portfolio-modal .modal-content{
     text-align: left;
 }
+
+header .intro-text .intro-lead-in{
+    font-style: normal;
+}
+
+.modal-body p{
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 300; }
