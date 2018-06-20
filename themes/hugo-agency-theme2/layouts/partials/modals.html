@@ -18,10 +18,11 @@
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               <p>{{ .description | markdownify }}</p>
               <ul class="list">
-                <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
-                <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
-                <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
                 <li>{{ with $.Site.Params.portfolio.modal.location }}{{ . }}{{ end }}: {{ .location  | markdownify }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: {{ .client | markdownify }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.collaboration }}{{ . | markdownify }}{{ end }}: {{ .collaboration | markdownify }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.offerings }}{{ . }}{{ end }}: {{ .offerings  | markdownify }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.status }}{{ . }}{{ end }}: {{ .status }}</li>
               </ul>
               {{ range .images }}
               {{ $url := printf "img/portfolio/%s" . }}

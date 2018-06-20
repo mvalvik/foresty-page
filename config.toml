@@ -119,10 +119,13 @@ googleAnalytics = ""
     #subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-      client = "Klient"
+      client = "Bygherre"
       date = "Dato"
       category = "Kategory"
       location = "Lokation"
+      status = "Status"
+      collaboration = "Samarbejde"
+      offerings = "Ydelser"
       buttonText = ""
 
 

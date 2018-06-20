@@ -184,6 +184,21 @@ header .intro-text .intro-lead-in{
     font-style: normal;
 }
 
-.modal-body p{
+.modal-body p {
     font-family: 'Roboto Slab', serif !important;
-    font-weight: 300; }
+    font-weight: 300; 
+}
+.modal-body li{
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 300;
+}
+
+.modal-body ul {
+    list-style-type: none;
+    padding: 0;
+     margin: 0;
+  }
+
+ .modal-body .list{
+     padding-bottom: 50px;
+ }
